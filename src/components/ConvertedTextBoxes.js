@@ -7,8 +7,11 @@ const ConvertedTextBox = ({ input }) => {
   return (
     <div className="converted-text-boxes">
       <BackwardsBox input={input} />
+      <br />
       <CapsBox input={input} />
+      <br />
       <LargerFontBox input={input} />
+      <br />
     </div>
   );
 };
