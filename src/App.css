@@ -18,6 +18,8 @@
   min-height: 100vh;
   font-size: calc(10px + 2vmin);
   color: white;
+  display: flex;
+  flex-direction: row;
 }
 
 .input-box {
@@ -25,11 +27,8 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: left;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-  float: left;
 }
 
 .converted-text-boxes {
@@ -37,21 +36,16 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: left;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
-  float: right;
 }
 
 .box {
   border: solid;
-}
-
-.caps {
-  text-transform: uppercase;
+  border-radius: 5px;
+  width: 50%;
+  height: 30%;
 }
 
 .larger-font {
-  font-size: 200%;
+  font-size: 4em;
 }
