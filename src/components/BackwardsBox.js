@@ -4,10 +4,12 @@ import PropTypes from "prop-types";
 const BackwardsBox = ({ input }) => {
   return (
     <div className="box">
-      {input
-        .split()
-        .reverse()
-        .join()}
+      {input !== ""
+        ? input
+            .split("")
+            .reverse()
+            .join()
+        : ""}
     </div>
   );
 };
