@@ -1,11 +1,11 @@
 import React from "react";
 import "./App.css";
-import PartOne from "./components/PartOne";
+import InputBox from "./components/InputBox";
 
 function App() {
   return (
     <div className="app">
-      <PartOne />
+      <InputBox />
     </div>
   );
 }

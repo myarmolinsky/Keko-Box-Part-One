@@ -8,7 +8,7 @@ const BackwardsBox = ({ input }) => {
         ? input
             .split("")
             .reverse()
-            .join()
+            .join("")
         : ""}
     </div>
   );
