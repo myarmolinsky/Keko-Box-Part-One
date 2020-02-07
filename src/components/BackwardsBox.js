@@ -3,14 +3,20 @@ import PropTypes from "prop-types";
 
 const BackwardsBox = ({ input }) => {
   return (
-    <div className="box">
-      {input !== ""
-        ? input
-            .split("")
-            .reverse()
-            .join("")
-        : ""}
-    </div>
+    <textarea
+      rows="5"
+      cols="40"
+      disabled="disabled"
+      className="box"
+      placeholder={
+        input !== ""
+          ? input
+              .split("")
+              .reverse()
+              .join("")
+          : ""
+      }
+    />
   );
 };
 

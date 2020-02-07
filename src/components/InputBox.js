@@ -8,8 +8,10 @@ const InputBox = () => {
     <Fragment>
       <div className="input-box">
         <form>
-          Enter text here:{" "}
-          <input
+          Enter text here: <br />
+          <textarea
+            rows="20"
+            cols="40"
             placeholder="Text Here"
             onChange={e => setInput(e.target.value)}
           />

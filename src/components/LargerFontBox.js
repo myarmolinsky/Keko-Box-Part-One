@@ -2,7 +2,15 @@ import React from "react";
 import PropTypes from "prop-types";
 
 const LargerFontBox = ({ input }) => {
-  return <div className="box larger-font">{input}</div>;
+  return (
+    <textarea
+      rows="1.5"
+      cols="40"
+      disabled="disabled"
+      className="box larger-font"
+      placeholder={input}
+    />
+  );
 };
 
 LargerFontBox.propTypes = {
