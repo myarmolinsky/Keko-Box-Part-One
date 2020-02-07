@@ -38,3 +38,11 @@
 .larger-font {
   font-size: 4em;
 }
+
+h3 {
+  margin-bottom: 0%;
+}
+
+.input-textarea {
+  margin-top: 2%;
+}

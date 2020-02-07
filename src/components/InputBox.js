@@ -9,8 +9,8 @@ const InputBox = () => {
       <div className="input-box">
         <form>
           <h3>Enter text here: </h3>
-          <br />
           <textarea
+            className="input-textarea"
             rows="20"
             cols="40"
             placeholder="Text Here"
