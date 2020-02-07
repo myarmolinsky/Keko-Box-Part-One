@@ -8,7 +8,8 @@ const InputBox = () => {
     <Fragment>
       <div className="input-box">
         <form>
-          Enter text here: <br />
+          <h3>Enter text here: </h3>
+          <br />
           <textarea
             rows="20"
             cols="40"

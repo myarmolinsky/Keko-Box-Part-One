@@ -31,7 +31,7 @@
   word-wrap: break-word;
 }
 
-::placeholder {
+.box::placeholder {
   color: black;
 }
 
