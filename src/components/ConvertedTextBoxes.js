@@ -6,12 +6,12 @@ import LargerFontBox from "./LargerFontBox";
 const ConvertedTextBox = ({ input }) => {
   return (
     <div className="converted-text-boxes">
+      <h3>Your text reversed:</h3>
       <BackwardsBox input={input} />
-      <br />
+      <h3>Your text in all caps:</h3>
       <CapsBox input={input} />
-      <br />
+      <h3>Your text in a larger font:</h3>
       <LargerFontBox input={input} />
-      <br />
     </div>
   );
 };
